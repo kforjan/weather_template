@@ -5,7 +5,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Weather DEV Debug",
+            "name": "DEV Debug",
             "request": "launch",
             "type": "dart",
             "program": "lib/main.dart",
@@ -16,7 +16,7 @@
             "flutterMode": "debug"
         },
         {
-            "name": "Weather DEV Profile",
+            "name": "DEV Profile",
             "request": "launch",
             "type": "dart",
             "program": "lib/main.dart",
@@ -27,7 +27,7 @@
             "flutterMode": "profile"
         },
         {
-            "name": "Weather STAGE Debug",
+            "name": "STAGE Debug",
             "request": "launch",
             "type": "dart",
             "program": "lib/main.dart",
@@ -38,7 +38,7 @@
             "flutterMode": "debug"
         },
         {
-            "name": "Weather STAGE Profile",
+            "name": "STAGE Profile",
             "request": "launch",
             "type": "dart",
             "program": "lib/main.dart",
@@ -49,7 +49,7 @@
             "flutterMode": "profile"
         },
         {
-            "name": "Weather PROD Debug",
+            "name": "PROD Debug",
             "request": "launch",
             "type": "dart",
             "program": "lib/main.dart",
@@ -60,7 +60,7 @@
             "flutterMode": "debug"
         },
         {
-            "name": "Weather PROD Release",
+            "name": "PROD Release",
             "request": "launch",
             "type": "dart",
             "program": "lib/main.dart",
