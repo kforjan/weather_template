@@ -58,6 +58,26 @@ android {
             signingConfig signingConfigs.debug
         }
     }
+
+    flavorDimensions "environment"
+    productFlavors {
+        dev {
+            dimension "environment"
+            //TODO: Change app name
+            resValue "string", "app_name", "Weather DEV"
+            applicationIdSuffix ".dev"
+        }
+        stage {
+            dimension "environment"
+            //TODO: Change app name
+            resValue "string", "app_name", "Weather STAGE"
+            applicationIdSuffix ".stage"
+        }
+        prod {
+            dimension "environment"
+            resValue "string", "app_name", "Weather"
+        }
+    }
 }
 
 flutter {
