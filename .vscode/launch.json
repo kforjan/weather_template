@@ -47,6 +47,28 @@
                 "stage"
             ],
             "flutterMode": "profile"
+        },
+        {
+            "name": "Weather PROD Debug",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main.dart",
+            "args": [
+                "--flavor",
+                "prod"
+            ],
+            "flutterMode": "debug"
+        },
+        {
+            "name": "Weather PROD Release",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main.dart",
+            "args": [
+                "--flavor",
+                "prod"
+            ],
+            "flutterMode": "release"
         }
     ]
 }
