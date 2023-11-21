@@ -14,8 +14,8 @@ dependencies:
   cupertino_icons: ^1.0.2
 
   # State management & DI
-  riverpod: ^2.4.7
-  flutter_riverpod: ^2.4.7
+  riverpod: ^2.4.8
+  flutter_riverpod: ^2.4.8
 
   # Networking
   dio: ^5.3.3
