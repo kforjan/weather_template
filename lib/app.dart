@@ -1,18 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-class WeatherApp extends StatelessWidget {
+class WeatherApp extends ConsumerWidget {
   const WeatherApp({super.key});
 
   @override
-  Widget build(BuildContext context) {
-    return ProviderScope(
-      child: MaterialApp(
-        title: 'Weather',
-        home: Scaffold(
-          appBar: AppBar(),
-          body: Container(),
-        ),
+  Widget build(BuildContext context, WidgetRef ref) {
+    return MaterialApp(
+      title: 'Weather',
+      home: Scaffold(
+        body: Container(),
       ),
     );
   }

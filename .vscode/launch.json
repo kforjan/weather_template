@@ -8,7 +8,6 @@
             "name": "DEV Debug",
             "request": "launch",
             "type": "dart",
-            "program": "lib/main.dart",
             "args": [
                 "--flavor",
                 "dev"
@@ -19,7 +18,6 @@
             "name": "DEV Profile",
             "request": "launch",
             "type": "dart",
-            "program": "lib/main.dart",
             "args": [
                 "--flavor",
                 "dev"
@@ -30,7 +28,6 @@
             "name": "STAGE Debug",
             "request": "launch",
             "type": "dart",
-            "program": "lib/main.dart",
             "args": [
                 "--flavor",
                 "stage"
@@ -41,7 +38,6 @@
             "name": "STAGE Profile",
             "request": "launch",
             "type": "dart",
-            "program": "lib/main.dart",
             "args": [
                 "--flavor",
                 "stage"
@@ -52,18 +48,16 @@
             "name": "PROD Debug",
             "request": "launch",
             "type": "dart",
-            "program": "lib/main.dart",
             "args": [
                 "--flavor",
                 "prod"
             ],
-            "flutterMode": "debug"
+            "flutterMode": "debug",
         },
         {
             "name": "PROD Release",
             "request": "launch",
             "type": "dart",
-            "program": "lib/main.dart",
             "args": [
                 "--flavor",
                 "prod"
