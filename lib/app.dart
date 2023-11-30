@@ -11,7 +11,7 @@ class WeatherApp extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final router = ref.read(appRouterProvider);
     return MaterialApp.router(
-      title: 'Weather',
+      onGenerateTitle: (context) => S.of(context).app_title,
       routerConfig: router.config,
       supportedLocales: S.delegate.supportedLocales,
       localizationsDelegates: const [
