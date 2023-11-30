@@ -1,8 +1,8 @@
 import 'package:flutter/widgets.dart';
 
 extension ProportionalSizeExtension on BuildContext {
-  static const _designHeight = 734.0; //TODO: define design height
-  static const _designWidth = 375.0; //TODO: define design width
+  static const _designHeight = 734.0; // TODO(kforjan): define design height
+  static const _designWidth = 375.0; // TODO(kforjan): define design width
 
   double getProportionalHeight(double height) {
     final bottomPadding = MediaQueryData.fromView(
