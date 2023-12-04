@@ -5,4 +5,5 @@ abstract class ApiConstants {
   static const baseUrlProd = '';
 
   // paths
+  static const weather = '/weather';
 }
