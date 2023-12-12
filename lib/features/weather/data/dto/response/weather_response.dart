@@ -1,5 +1,4 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:weather_riverpod/features/weather/model/weather.dart';
 import 'package:weather_riverpod/features/weather/model/weather_type.dart';
 
 part 'weather_response.freezed.dart';
@@ -18,15 +17,4 @@ class WeatherResponse with _$WeatherResponse {
 
   factory WeatherResponse.fromJson(Map<String, dynamic> json) =>
       _$WeatherResponseFromJson(json);
-}
-
-extension WeatherResponseExtension on WeatherResponse {
-  Weather toDomain() {
-    return Weather(
-      temperature: temperature,
-      humidity: humidity,
-      cityName: cityName,
-      weatherType: weatherType,
-    );
-  }
 }
