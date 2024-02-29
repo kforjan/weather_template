@@ -142,7 +142,6 @@ app.*.map.json
 
 # FVM Version Cache
 .fvm/*
-.fvmrc/*
 
 # Exceptions to above rules.
 !**/ios/**/default.mode1v3
@@ -157,4 +156,3 @@ app.*.map.json
 !.idea/codeStyles/
 !.idea/dictionaries/
 !.idea/runConfigurations/
-!.fvm/fvm_config.json
